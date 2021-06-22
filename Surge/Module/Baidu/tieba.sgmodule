@@ -1,0 +1,10 @@
+#!name=百度贴吧
+#!desc=百度贴吧签到
+#!system=ios
+
+[Script]
+百度贴吧Cookie = type=http-request,pattern=^https?:\/\/tieba\.baidu\.com\/?.?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.cookie.js
+百度贴吧签到 = type=cron,cronexp=0 0 9 * * ?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js
+
+[MITM]
+hostname = tieba.baidu.com
