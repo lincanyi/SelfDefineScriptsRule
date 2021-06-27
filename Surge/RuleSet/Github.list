@@ -1,2 +1,6 @@
+# github
 DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,raw.githubusercontent.com
+
+# gitlab
+DOMAIN-SUFFIX,gitlab.com
