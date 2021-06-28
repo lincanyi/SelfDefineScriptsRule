@@ -2,6 +2,7 @@
 DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,githubusercontent.com
 DOMAIN-SUFFIX,apiserv.org
+DOMAIN-SUFFIX,githubassets.com
 
 # gitlab
 DOMAIN-SUFFIX,gitlab.com
