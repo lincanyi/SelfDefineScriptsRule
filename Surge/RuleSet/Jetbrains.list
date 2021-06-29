@@ -2,5 +2,6 @@
 DOMAIN-SUFFIX,jetbrains.com
 
 # Python
+DOMAIN-SUFFIX,pypi.python.org
 DOMAIN-SUFFIX,python.org
 DOMAIN-SUFFIX,pypi.org
