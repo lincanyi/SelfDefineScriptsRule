@@ -6,3 +6,19 @@ DOMAIN-SUFFIX,dlercloud.com
 DOMAIN-SUFFIX,matters.news
 DOMAIN-SUFFIX,dler.io
 DOMAIN-SUFFIX,dropbox.com
+
+# IDE
+DOMAIN-SUFFIX,jetbrains.com
+
+# Python
+DOMAIN-SUFFIX,pypi.python.org
+DOMAIN-SUFFIX,python.org
+DOMAIN-SUFFIX,pypi.org
+
+# github
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,githubassets.com
+
+# gitlab
+DOMAIN-SUFFIX,gitlab.com
