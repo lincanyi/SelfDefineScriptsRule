@@ -28,8 +28,9 @@ DOMAIN-SUFFIX,twitter.com
 
 # instagram
 DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,cdninstagram.com
 
 # facebook
 DOMAIN-SUFFIX,facebook.com
-DOMAIN,static.xx.fbcdn.net
+DOMAIN-SUFFIX,fbcdn.net
 DOMAIN,facebook.net
