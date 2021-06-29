@@ -22,3 +22,12 @@ DOMAIN-SUFFIX,githubassets.com
 
 # gitlab
 DOMAIN-SUFFIX,gitlab.com
+
+# twitter
+DOMAIN-SUFFIX,twitter.com
+
+# instagram
+DOMAIN-SUFFIX,instagram.com
+
+# facebook
+DOMAIN-SUFFIX,facebook.com
