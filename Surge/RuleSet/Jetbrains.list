@@ -1,1 +1,6 @@
+# IDE
 DOMAIN-SUFFIX,jetbrains.com
+
+# Python
+DOMAIN-SUFFIX,python.org
+DOMAIN-SUFFIX,pypi.org
