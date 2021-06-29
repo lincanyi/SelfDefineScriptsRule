@@ -1,3 +1,4 @@
+IP-CIDR,8.8.8.8/32,no-resolve // BoxJs
 DOMAIN-SUFFIX,sub-store.vercel.app
 DOMAIN-SUFFIX,sub.store
 DOMAIN-SUFFIX,dler.cloud
