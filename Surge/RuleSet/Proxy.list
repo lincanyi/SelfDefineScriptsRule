@@ -25,17 +25,3 @@ DOMAIN-SUFFIX,githubassets.com
 
 # gitlab
 DOMAIN-SUFFIX,gitlab.com
-
-# twitter
-DOMAIN-SUFFIX,twitter.com
-DOMAIN-SUFFIX,twimg.com
-DOMAIN-SUFFIX,t.co
-
-# instagram
-DOMAIN-SUFFIX,instagram.com
-DOMAIN-SUFFIX,cdninstagram.com
-
-# facebook
-DOMAIN-SUFFIX,facebook.com
-DOMAIN-SUFFIX,fbcdn.net
-DOMAIN,facebook.net
