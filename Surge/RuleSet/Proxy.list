@@ -7,6 +7,9 @@ DOMAIN-SUFFIX,matters.news
 DOMAIN-SUFFIX,dler.io
 DOMAIN-SUFFIX,dropbox.com
 
+# protonmail邮箱
+DOMAIN-KEYWORD,protonmail
+
 #土豆
 DOMAIN-KEYWORD,potato
 
