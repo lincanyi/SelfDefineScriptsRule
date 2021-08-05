@@ -2,17 +2,18 @@
 #!desc=iOS14 IPA应用安装、哔哩哔哩自动切换地区、京东多合一签到、捷径策略切换
 
 [Script]
+# iOS14 IPA应用安装
 IPA应用安装 = type=http-request,pattern=^https:\/\/nobyda/(install|download)(\/jsbox)?$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/IPA_install.js
 
-[Script]
+# 哔哩哔哩自动切换地区
 Bili Region = type=http-response,pattern=^https:\/\/ap(p|i)\.bilibili\.com\/(pgc\/view\/(v\d\/)?app|x(\/v\d)?\/view\/video)\/(season|online)\?access_key,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lincanyi/SelfDefineScriptsRule/main/Surge/Script/BiliBili/Bili_Auto_Regions.js
 Bili Search = type=http-request,pattern=^https:\/\/app\.bilibili\.com\/x\/v\d\/search(\/type)?\?.+?%20(%E6%B8%AF|%E5%8F%B0|%E4%B8%AD)&,script-path=https://raw.githubusercontent.com/lincanyi/SelfDefineScriptsRule/main/Surge/Script/BiliBili/Bili_Auto_Regions.js
 
-[Script]
+# 京东多合一签到
 京东多合一签到 = type=cron,cronexp=0 0 9 * * ?,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 获取京东Cookie = type=http-request,pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 
-[Script]
+# 捷径策略切换
 捷径策略切换 = type=http-request,pattern=^http:\/\/nobyda\.policy,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Shortcuts/PolicySwitch.js,script-update-interval=0
 
 [MITM]
