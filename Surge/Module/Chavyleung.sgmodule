@@ -1,20 +1,12 @@
 #!name=chavyleung脚本订阅
-#!desc=百度贴吧签到、获取京东618活动会话信息、执行京东618活动任务、BoxJs
+#!desc=百度贴吧签到,BoxJs
 
 [Script]
 # 百度贴吧签到
 百度贴吧Cookie = type=http-request,pattern=^https?:\/\/tieba\.baidu\.com\/?.?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.cookie.js
 百度贴吧签到 = type=cron,cronexp=0 0 9 * * ?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js
 
-# 获取京东618活动会话信息
-Rewrite: JD618 = type=http-request,pattern=^https:\/\/api.m.jd.com\/client.action\?functionId=cakebaker_getHomeData,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/jd/jd.618.cookie.js,requires-body=true,debug=true
-
-# 执行京东618活动任务
-Tasks: JD618 = type=cron,cronexp="10,30,50 0,1 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/jd/jd.618.adapt.js,wake-system=true,timeout=1200
-Tasks: JD618.Boom = type=cron,cronexp="0 10,12,18,20,21 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/jd/jd.618.boom.js,wake-system=true
-Tasks: JD618.Boom = type=cron,cronexp="30 21 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/jd/jd.618.boom.js,wake-system=true
-
 # BoxJs
 Rewrite: BoxJs = type=http-request,pattern=^https?://boxjs.com,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/chavy.box.js, requires-body=true, timeout=120
 [MITM]
-hostname =%INSERT% tieba.baidu.com,api.m.jd.com
+hostname =%INSERT% tieba.baidu.com
