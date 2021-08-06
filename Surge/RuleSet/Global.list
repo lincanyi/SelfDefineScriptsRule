@@ -1,15 +1,13 @@
-# (DNS Cache Pollution)
-# > Amazon
-DOMAIN-SUFFIX,amazon.co.jp
-DOMAIN,d3c33hcgiwev3.cloudfront.net
-DOMAIN,payments-jp.amazon.com
-DOMAIN,s3-ap-northeast-1.amazonaws.com
-DOMAIN,s3-ap-southeast-2.amazonaws.com
+# > MEGA
+DOMAIN-SUFFIX,userstorage.mega.co.nz
+DOMAIN-SUFFIX,api.mega.co.nz
+# > Yandex.disk
+DOMAIN,oauth.yandex.com
+DOMAIN-SUFFIX,yandex.ru
+DOMAIN-SUFFIX,yandex.net
 # > Akamai
 DOMAIN,a248.e.akamai.net
 DOMAIN,a771.dscq.akamai.net
-# > Apple
-DOMAIN,testflight.apple.com
 # > Crypto
 DOMAIN-SUFFIX,aex.com
 DOMAIN-SUFFIX,bibox.com
@@ -49,20 +47,6 @@ DOMAIN-SUFFIX,oculuscdn.com
 DOMAIN-SUFFIX,rocksdb.org
 DOMAIN-SUFFIX,whatsapp.com
 DOMAIN-SUFFIX,whatsapp.net
-# > Github
-DOMAIN-SUFFIX,github.com
-DOMAIN-SUFFIX,github.io
-DOMAIN-SUFFIX,githubusercontent.com
-# > Google
-DOMAIN-SUFFIX,appspot.com
-DOMAIN-SUFFIX,blogger.com
-DOMAIN-SUFFIX,getoutline.org
-DOMAIN-SUFFIX,gvt0.com
-DOMAIN-SUFFIX,gvt3.com
-DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-DOMAIN-SUFFIX,ytimg.com
-DOMAIN-KEYWORD,google
-DOMAIN-KEYWORD,.blogspot.
 # > Line
 DOMAIN-SUFFIX,line.me
 DOMAIN-SUFFIX,line-apps.com
@@ -72,14 +56,6 @@ IP-CIDR,103.2.30.0/23,no-resolve
 IP-CIDR,125.209.208.0/20,no-resolve
 IP-CIDR,147.92.128.0/17,no-resolve
 IP-CIDR,203.104.144.0/21,no-resolve
-# > Microsoft
-DOMAIN-SUFFIX,aka.ms
-DOMAIN-SUFFIX,onedrive.live.com
-DOMAIN-SUFFIX,streaming.mediaservices.windows.net
-DOMAIN,assets1.xboxlive.com
-DOMAIN,assets2.xboxlive.com
-DOMAIN,az416426.vo.msecnd.net
-DOMAIN,az668014.vo.msecnd.net
 # > The New York Times
 DOMAIN-SUFFIX,nyt.com
 DOMAIN-SUFFIX,nytchina.com
@@ -106,20 +82,6 @@ DOMAIN-SUFFIX,pximg.net
 DOMAIN-SUFFIX,redd.it
 DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,redditmedia.com
-# > Telegram
-DOMAIN-SUFFIX,telegra.ph
-DOMAIN-SUFFIX,telegram.org
-IP-CIDR,91.108.4.0/22,no-resolve
-IP-CIDR,91.108.8.0/22,no-resolve
-IP-CIDR,91.108.12.0/22,no-resolve
-IP-CIDR,91.108.16.0/22,no-resolve
-IP-CIDR,91.108.20.0/22,no-resolve
-IP-CIDR,91.108.56.0/22,no-resolve
-IP-CIDR,95.161.64.0/20,no-resolve
-IP-CIDR,149.154.160.0/20,no-resolve
-IP-CIDR6,2001:b28:f23d::/48,no-resolve
-IP-CIDR6,2001:b28:f23f::/48,no-resolve
-IP-CIDR6,2001:67c:4e8::/48,no-resolve
 # > Twitter
 DOMAIN-SUFFIX,pscp.tv
 DOMAIN-SUFFIX,periscope.tv
