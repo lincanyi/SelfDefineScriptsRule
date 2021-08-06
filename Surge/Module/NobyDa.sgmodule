@@ -1,5 +1,5 @@
 #!name=NobyDa脚本订阅
-#!desc=iOS14 IPA应用安装、哔哩哔哩自动切换地区、京东多合一签到、捷径策略切换
+#!desc=iOS14 IPA应用安装,哔哩哔哩自动切换地区,京东多合一签到,捷径策略切换,巴哈姆特签到
 
 [Script]
 iOS14 IPA应用安装 = type=http-request,pattern=^https:\/\/nobyda/(install|download)(\/jsbox)?$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/IPA_install.js
