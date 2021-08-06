@@ -1,5 +1,5 @@
 #!name=Blackmatrix7脚本订阅
-#!desc=Blackmatrix7脚本订阅插件:知乎助手Plus版、开屏去广告、中国联通每日自动签到与抽奖、BiliBili去广告、嘀嗒出行每日自动签到、滴滴出行每日自动签到与抽奖、饿了么每日自动领取任务及吃货豆、什么值得买每日自动签到以及每日自动任务、什么值得买APP去广告,万达电影每日自动签到,小米有品每日自动签到
+#!desc=签到,复写,广告拦截
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
 #!rewrite=766
