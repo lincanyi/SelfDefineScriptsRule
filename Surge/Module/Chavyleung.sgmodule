@@ -1,6 +1,5 @@
 #!name=chavyleung脚本订阅
 #!desc=百度贴吧签到、获取京东618活动会话信息、执行京东618活动任务、BoxJs
-#!system=ios
 
 [Script]
 # 百度贴吧签到
@@ -18,4 +17,4 @@ Tasks: JD618.Boom = type=cron,cronexp="30 21 * * *",script-path=https://raw.gith
 # BoxJs
 Rewrite: BoxJs = type=http-request,pattern=^https?://boxjs.com,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/chavy.box.js, requires-body=true, timeout=120
 [MITM]
-hostname =%APPEND% tieba.baidu.com,api.m.jd.com
+hostname =%INSERT% tieba.baidu.com,api.m.jd.com
