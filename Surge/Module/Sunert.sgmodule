@@ -3,15 +3,15 @@
 #!system=ios
 
 [Script]
-腾讯新闻签到 = type=cron,cronexp=0 8 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/txnews.js,script-update-interval=0
-腾讯新闻获取cookie = type=http-request,pattern=https:\/\/api\.inews\.qq\.com\/event\/v1\/user\/event\/report\?,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/txnews.js, requires-body=true
-腾讯新闻获取视频地址 = type=http-request,pattern=https:\/\/api\.prize\.qq\.com\/v1\/newsapp\/chajianrp\/sendprize, script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/txnews.js
-微博&钱包签到 = type=cron,cronexp=35 5 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/weibo.js,script-update-interval=0
-获取微博Cookie1 = type=http-request,pattern=https:\/\/api\.weibo\.cn\/\d\/users\/show,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/weibo.js
-获取微博Cookie2 = type=http-request,pattern=https:\/\/api\.weibo\.cn\/2\/logservice\/service,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/weibo.js
-快手视频 = type=cron,cronexp=35 5 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/kuaishou.js,script-update-interval=0
-快手正式版获取Cookie = type=http-request,pattern=https:\/\/activity\.m\.kuaishou\.com\/rest\/wd\/taskCenter\/\w+\/module\/list,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/kuaishou.js
-快手极速版获取Cookie = type=http-request,pattern=https:\/\/nebula\.kuaishou\.com\/nebula\/task\/earning\?,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/kuaishou.js
+腾讯新闻签到 = type=cron,cronexp=0 8 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/txnews.js,script-update-interval=6048002
+腾讯新闻获取cookie = type=http-request,pattern=https:\/\/api\.inews\.qq\.com\/event\/v1\/user\/event\/report\?,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/txnews.js, requires-body=true,script-update-interval=6048002
+腾讯新闻获取视频地址 = type=http-request,pattern=https:\/\/api\.prize\.qq\.com\/v1\/newsapp\/chajianrp\/sendprize, script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/txnews.js,script-update-interval=6048002
+微博&钱包签到 = type=cron,cronexp=35 5 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/weibo.js,script-update-interval=6048002
+获取微博Cookie1 = type=http-request,pattern=https:\/\/api\.weibo\.cn\/\d\/users\/show,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/weibo.js,script-update-interval=6048002
+获取微博Cookie2 = type=http-request,pattern=https:\/\/api\.weibo\.cn\/2\/logservice\/service,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/weibo.js,script-update-interval=6048002
+快手视频 = type=cron,cronexp=35 5 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/kuaishou.js,script-update-interval=6048002
+快手正式版获取Cookie = type=http-request,pattern=https:\/\/activity\.m\.kuaishou\.com\/rest\/wd\/taskCenter\/\w+\/module\/list,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/kuaishou.js,script-update-interval=6048002
+快手极速版获取Cookie = type=http-request,pattern=https:\/\/nebula\.kuaishou\.com\/nebula\/task\/earning\?,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/kuaishou.js,script-update-interval=6048002
 
 [MITM]
 hostname = %APPEND% nebula.kuaishou.com, activity.m.kuaishou.com,api.weibo.cn,api.inews.qq.com, api.prize.qq.com
