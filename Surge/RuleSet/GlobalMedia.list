@@ -1,4 +1,6 @@
 # Streaming Media
+DOMAIN-SUFFIX,trakt.tv
+DOMAIN,traker.trackerfix.com
 # (Podcast)
 # > Himalaya
 USER-AGENT,Himalaya*
