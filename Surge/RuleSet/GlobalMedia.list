@@ -1,6 +1,8 @@
 # infuse
 DOMAIN-SUFFIX,themoviedb.org
 # Streaming Media
+DOMAIN-SUFFIX,trakt.tv
+DOMAIN-SUFFIX,trackerfix.com
 # (Podcast)
 # > Himalaya
 USER-AGENT,Himalaya*
