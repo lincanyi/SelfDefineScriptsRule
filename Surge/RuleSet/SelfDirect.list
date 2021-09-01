@@ -40,3 +40,14 @@ DOMAIN-SUFFIX,boylove.house
 DOMAIN-SUFFIX,gaysay.com
 DOMAIN-SUFFIX,81zw.com
 DOMAIN-SUFFIX,liehuozw.com
+
+DOMAIN-SUFFIX,yunpangou.com
+DOMAIN-SUFFIX,wxbxkx.com
+DOMAIN-SUFFIX,52guai.com
+
+DOMAIN-SUFFIX,bce.baidu.com
+DOMAIN,login.bce.baidu.com
+
+DOMAIN,million-api.aiclk.com
+
+PROCESS-NAME,/Applications/Thunder.app/Contents/MacOS/Thunder

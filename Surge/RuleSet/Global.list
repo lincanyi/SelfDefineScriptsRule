@@ -13,6 +13,8 @@
 # URL-REGEX: 1
 # TOTAL: 33726
 
+DOMAIN-SUFFIX,freedownloadmanager.org
+
 # > MEGA
 DOMAIN-SUFFIX,userstorage.mega.co.nz
 DOMAIN-SUFFIX,api.mega.co.nz
