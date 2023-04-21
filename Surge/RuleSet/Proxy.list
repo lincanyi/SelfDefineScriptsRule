@@ -5,7 +5,8 @@ DOMAIN-SUFFIX,dler.cloud
 DOMAIN-SUFFIX,dlercloud.com
 DOMAIN-SUFFIX,matters.news
 DOMAIN-SUFFIX,dler.io
-DOMAIN-SUFFIX,dropbox.com
+DOMAIN-SUFFIX,dropbox.com 
+DOMAIN-SUFFIX,fonete.com
 
 # protonmail邮箱
 DOMAIN-KEYWORD,protonmail
