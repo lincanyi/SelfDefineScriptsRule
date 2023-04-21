@@ -6,6 +6,8 @@
 哔哩哔哩搜索切换地区 = type=http-request,pattern=^https:\/\/app\.bilibili\.com\/x\/v\d\/search(\/type)?\?.+?%20(%E6%B8%AF|%E5%8F%B0|%E4%B8%AD)&,script-path= https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bili_Auto_Regions.js,script-update-interval=6048002
 捷径策略切换 = type=http-request,pattern=^http:\/\/nobyda\.policy,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Shortcuts/PolicySwitch.js,script-update-interval=6048002
 巴哈姆特签到 = type=cron,cronexp=0 8 * * *, wake-system=1, timeout=300,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bahamut/BahamutDailyBonus.js,script-update-interval=6048002
+吾爱签到 = type=cron,cronexp=0 9 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
+吾爱获取Cookie = type=http-request,pattern=https:\/\/www\.52pojie\.cn\/home\.php\?,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
 
 [MITM]
-hostname = %INSERT% nobyda,ap?.bilibili.com,api.m.jd.com
+hostname = %INSERT% nobyda,ap?.bilibili.com,api.m.jd.com, www.52pojie.cn
