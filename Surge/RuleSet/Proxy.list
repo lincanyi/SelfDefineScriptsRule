@@ -7,6 +7,9 @@ DOMAIN-SUFFIX,matters.news
 DOMAIN-SUFFIX,dler.io
 DOMAIN-SUFFIX,dropbox.com 
 DOMAIN-SUFFIX,fonete.com
+DOMAIN-SUFFIX,clicli.cc
+DOMAIN-SUFFIX,telegram-cdn.org
+DOMAIN-SUFFIX,applehub.cn
 
 # protonmail邮箱
 DOMAIN-KEYWORD,protonmail
