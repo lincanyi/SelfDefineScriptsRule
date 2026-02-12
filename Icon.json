@@ -3,5 +3,8 @@
 "description":"自定义", 
 "icons":
 [
-	{"name":"HKT", "url":"https:\/\/raw.githubusercontent.com\/lincanyi\/Documents\/master\/image\/2026212155425_IMG_5038.png"}]
+	{"name":"HKT", "url":"https:\/\/raw.githubusercontent.com\/lincanyi\/Documents\/master\/image\/2026212155425_IMG_5038.png"},
+	{"name":"DMIT", "url":"https:\/\/raw.githubusercontent.com\/lincanyi\/Documents/master\/image\/2026212160549_F1DEF7DE-4BF2-4327-B048-FFDAA6E6E150.png"},
+	{"name":"EDGE", "url":"https:\/\/raw.githubusercontent.com\/lincanyi\/Documents/master\/image\/2026212160619_B43CBA98-DC26-40D6-8C3D-317B9D3BC718.png"},
+]
 }
